@@ -1,0 +1,43 @@
+========================================
+Empty compound statement
+========================================
+
+{}
+
+----------------------------------------
+
+(source_file
+  (statement
+    (compound_statement)))
+
+
+========================================
+Empty multi-line compound statement
+========================================
+
+{
+
+}
+
+----------------------------------------
+
+(source_file
+  (statement
+    (compound_statement)))
+
+
+========================================
+Compound statement with semi-colon
+========================================
+
+{
+	;
+}
+
+----------------------------------------
+
+(source_file
+  (statement
+    (compound_statement
+      (statement
+        (expr_statement)))))
